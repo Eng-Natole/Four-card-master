@@ -60,8 +60,9 @@ body {
 .card-component {
   display: flex;
   flex-direction: column;
-  border-top: 5px solid;
+  border-top: 7px solid;
   border-radius: 5px;
+  gap: 10px;
 }
 .red {
   border-color: hsl(0, 78%, 62%);
@@ -86,9 +87,10 @@ body {
   margin-top: 1%;
   color: hsl(229, 6%, 66%);
 }
-.card-component svg {
+.card-component img {
   margin: 0;
   margin-left: 70%;
+  width: 50px;
 }
 
 @media (min-width: 1440px) {
