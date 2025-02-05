@@ -34,8 +34,8 @@ Users should be able to:
 
 ### 🔗 Links
 
-- **Solution URL:** [Add solution URL here]
-- **Live Site URL:** [Add live site URL here]
+- **Solution URL:** https://github.com/Eng-Natole/Four-card-master
+- **Live Site URL:** https://github.com/Eng-Natole/Four-card-master/
 
 ---
 
