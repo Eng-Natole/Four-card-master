@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", serif;
+}
+.container {
+  background-color: hsl(0, 0%, 98%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 380px;
+  min-height: 100vh;
+}
+.header {
+  text-align: center;
+  margin: 20% 0;
+}
+.header h1 {
+  font-size: 20px;
+  margin-top: 1%;
+}
+.header .bold {
+  font-weight: 200;
+}
+.header p {
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 4%;
+  width: 300px;
+  color: hsl(229, 6%, 66%);
+  margin-left: 20px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.combiner {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+}
+.card {
+  max-width: 300px;
+  height: 226px;
+  background-color: white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+.card-component {
+  display: flex;
+  flex-direction: column;
+  border-top: 5px solid;
+  border-radius: 5px;
+}
+.red {
+  border-color: hsl(0, 78%, 62%);
+}
+.green {
+  border-color: hsl(180, 62%, 55%);
+}
+.blue {
+  border-color: hsl(212, 86%, 64%);
+}
+.yellow {
+  border-color: hsl(34, 97%, 64%);
+}
+.card-component h2,
+.card-component p {
+  margin-left: 10%;
+}
+.card-component h2 {
+  margin-top: 8%;
+}
+.card-component p {
+  margin-top: 1%;
+  color: hsl(229, 6%, 66%);
+}
+.card-component svg {
+  margin: 0;
+  margin-left: 70%;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1441px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .header {
+    margin: 40px 0;
+    width: 800px;
+  }
+  .header p {
+    width: 600px;
+    text-align: center;
+    margin: 15px auto;
+    font-size: 16px;
+  }
+  .header h1 {
+    font-size: 30px;
+    margin-top: 0;
+  }
+  .content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .combiner {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .card {
+    width: 360px;
+    height: 260px;
+  }
+  .card-component {
+    gap: 15px;
+  }
+}
