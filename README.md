@@ -35,7 +35,7 @@ Users should be able to:
 ### 🔗 Links
 
 - **Solution URL:** https://github.com/Eng-Natole/Four-card-master
-- **Live Site URL:** https://github.com/Eng-Natole/Four-card-master/
+- **Live Site URL:**  https://eng-natole.github.io/Four-card-master/
 
 ---
 
